@@ -1,4 +1,4 @@
-# pyplines Static Code Analysis 
+# Pyplines - Static Code Analysis 
 
 
 ## Intoduction
@@ -29,7 +29,7 @@ AUTO_DECLINE = False
 ```
 
 ## pylint.rcfile
-A custom cofig file consisting of BHB's python coding standards!
+A custom cofig file consisting of custom python coding standards!
 Analysis will be done basing this as a reference file .
 
 
@@ -51,7 +51,7 @@ docker build -t name . --build-arg staticcodeanalysis=1
 ##### setup-code-analysis.sh
 ```
 #!/bin/bash
-git clone https://deployuserbhb:da45!Fh6@bitbucket.org/bensonhillbiosystems/staticcodeanalysis.git;
+git clone https://username:pwd@bitbucket.org/iamlmn/staticcodeanalysis.git;
 pip3 install -r staticcodeanalysis/requirements.txt ;
 
 ```
