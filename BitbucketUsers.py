@@ -1,0 +1,12 @@
+users={'lakshmi naarayanan vs':'lakshminaarayanan.vaigaishrinivasan@cesltd.com',
+		'Bhanuprathap Kari':'bhanuprathap.kari@cesltd.com',
+		'Michael Sherwood':'msherwood@bensonhillbio.com',
+		'Bandi Prudhvi':'prudhvi.bandi@cesltd.com',
+		'Maitri Jain':'maitri.jain@cesltd.com',
+		'Hemali Patel' : 'hpatel@bensonhillbio.com',
+		'Shailaja Suresh':'ssuresh@bensonhillbio.com',
+		'Padmaja Sreeram':'psreeram@bensonhillbio.com',
+		'Dave Larson':'',
+		'Mukesh Vaishnav': 'mukesh.vaishnav@cesltd.com',
+		'Lakshmi Avula': 'lavula@bensonhillbio.com',
+		'Rohit Vipin Mathews' : 'rohit.vipinmathews@cesltd.com'}

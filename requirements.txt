@@ -1,0 +1,21 @@
+
+#AWS UTILS
+boto3
+botocore
+
+#Devlopment packages
+docopt
+requests
+
+#Testing helpers
+pytest
+pytest-cov
+pytest-greendots
+pytest-flask
+coverage
+pylint
+pylint-flask
+flake8
+mypy
+html-testRunner
+pylint-json2html
