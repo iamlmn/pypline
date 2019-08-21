@@ -90,7 +90,11 @@ def get_secret():
 ## Contributors
  - Lakshmi Naarayanan
 
-## Future Wo
+## Future Works
+
+To build a custom unix based docker image .
+Pakcage it under pip
+
 
 ## Repository
  - https://bitbucket.org/bensonhillbiosystems/staticcodeanalysis
