@@ -56,6 +56,37 @@ pip3 install -r staticcodeanalysis/requirements.txt ;
 
 ```
 
+## Config file 
+ A config file is expected in source code repo.
+ AWS secret manager can be used to manage secrets key's id's and passwords
+
+aws sample code to retrieve the registerred secrets :
+
+```
+import boto3
+import base64
+from botocore.exceptions import ClientError
+
+
+def get_secret():
+
+    secret_name = "StaticCodeAnalysisSecrets"
+    region_name = "us-east-1"
+
+    # Create a Secrets Manager client
+    session = boto3.session.Session()
+    client = session.client(
+        service_name='secretsmanager',
+        region_name=region_name
+    )
+
+    try:
+        get_secret_value_response = client.get_secret_value(
+            SecretId=secret_name
+        )
+        return get_secret_value_response['SecretString']
+ ```
+
 ## Contributors
  - Lakshmi Naarayanan
 

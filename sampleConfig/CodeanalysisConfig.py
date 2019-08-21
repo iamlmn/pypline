@@ -15,16 +15,11 @@ def get_secret():
         region_name=region_name
     )
 
-    # In this sample we only handle the specific exceptions for the 'GetSecretValue' API.
-    # See https://docs.aws.amazon.com/secretsmanager/latest/apireference/API_GetSecretValue.html
-    # We rethrow the exception by default.
-
     try:
         get_secret_value_response = client.get_secret_value(
             SecretId=secret_name
         )
         return get_secret_value_response['SecretString']
-        #return (get_secret_value_response['SecretString']['BITBUCKET_CLIENT_KEY'] ,get_secret_value_response['SecretString']['BITBUCKET_CLIENT_SECRET_ID'] , get_secret_value_response['SecretString']['AWS_ACCESS_KEY'] ,get_secret_value_response['SecretString']['AWS_SECRET_KEY'] )
     except ClientError as e:
         if e.response['Error']['Code'] == 'DecryptionFailureException':
             # Secrets Manager can't decrypt the protected secret text using the provided KMS key.
