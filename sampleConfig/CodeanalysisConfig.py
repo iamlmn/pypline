@@ -68,10 +68,10 @@ OWNER_NAME = 'iamlmn'
 TEST_DIR = "/home/pipeline/test/"
 
 # AWS ,EMAIL & MODULE SETTINGS
-SENDER = "lakshminaarayanan.vaigaishrinivasan@cesltd.com"
+SENDER = "lakshminaarayananvs@rediffmail.com"
 #MODULES=['rungwas.py', 'gemma_run.py', 'csv_conversion.py', 'plink_conversion.py', 'Poorly_coded.py']
 MODULES=['run.py', 'main.py', 'train.py', 'test.py']
-TO=['lakshminaarayanan.vaigaishrinivasan@cesltd.com']
+TO=['lakshminaarayananvs@rediffmail.com']
 PYLINT_REPORT_NAME='Module_pylint_Code_Analysis'
     
 #Base Email subject
